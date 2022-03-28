@@ -24,7 +24,7 @@ import logging
 
 
 def get_exception_str(ex):
-    return [item.strip().replace("\n", " ") for item in traceback.format_exception_only(type(ex), ex)]
+    return "[" + ", ".join([item.strip().replace("\n", " ") for item in traceback.format_exception_only(type(ex), ex)]) + "]"
 
 
 def get_logger(name: str) -> logging.Logger:
