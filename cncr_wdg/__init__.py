@@ -14,7 +14,7 @@
    limitations under the License.
 """
 
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 __title__ = 'concurrency-watchdog'
 __description__ = 'Watchdog for monitoring threads or processes and handling signals.'
 __url__ = 'https://github.com/SENERGY-Platform/concurrency-watchdog'
